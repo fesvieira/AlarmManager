@@ -65,6 +65,7 @@ class MainActivity : ComponentActivity() {
                             Text(text = "Message")
                         }
                     )
+                    
                     Row(modifier = Modifier.fillMaxWidth()) {
                         Button(onClick = {
                             alarmItem = AlarmItem(
